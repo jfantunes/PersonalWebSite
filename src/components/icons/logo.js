@@ -11,7 +11,7 @@ const IconLogo = () => (
           fontSize="40"
           y="57"
           x="7.5"
-          strokewidth="4"
+          strokeWidth="4"
           stroke="currentColor"
           fill="currentColor">
           JFA

@@ -1,7 +1,7 @@
 ---
 date: '2012-09-01'
 title: 'Full Stack Developer'
-company: 'InfoPortgual'
+company: 'InfoPortugal'
 location: 'Porto, Portugal'
 range: 'Sep 2012 - Oct 2013'
 url: 'https://infoportugal.pt/'
