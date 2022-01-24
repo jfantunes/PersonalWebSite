@@ -189,6 +189,7 @@ const Projects = () => {
     }
   `);
 
+  // const [showMore, setShowMore] = useState(false);
   const [showMore] = useState(false);
   const revealTitle = useRef(null);
   const revealArchiveLink = useRef(null);
@@ -293,6 +294,10 @@ const Projects = () => {
           </TransitionGroup>
         )}
       </ul>
+
+      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
+        Show {showMore ? 'Less' : 'More'}
+      </button> */}
     </StyledProjectsSection>
   );
 };
