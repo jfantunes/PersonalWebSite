@@ -1,6 +1,6 @@
 ---
 date: '2016-11-09'
-title: 'Weather Widget'
+title: 'Site access benchmark'
 github: 'https://github.com/jfantunes/siteAccessBenchmark'
 external: ''
 tech:
