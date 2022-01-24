@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Jose Francisco Antunes',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Jose Antunes is a software architect that specializes in building scalable and reusable software',
+    siteUrl: 'https://jose-antunes.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@JosFrancisco86',
   },

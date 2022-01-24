@@ -9,7 +9,7 @@ tech:
   - MySQL
   - Wordpress
   - Php
-showInProjects: false
+showInProjects: true
 company: 'InfoPortugal'
 ---
 
