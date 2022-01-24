@@ -21,7 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 200px));
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -125,7 +125,26 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const langaugesAndFrameworksSkills = [
+    'Javascript',
+    'Typescript',
+    'RxJs',
+    'NodeJs',
+    'ExpressJs',
+    'Koa',
+    'Angular 2-10',
+    'NgRx(Redux)',
+    'Vue',
+    'C#',
+    '.Net',
+    '.NetCore',
+    'EntityFramework',
+    'TypeOrm',
+    'Knex',
+    'Dapper',
+  ];
+  const databaseSkills = ['MySQL', 'PostgreSQL', 'SQLServer', 'MongoDb'];
+  const cicdSkills = ['Docker', 'Bitbucket Pipelines', 'DbUP', 'Octopus Deploy', 'AWS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,29 +154,36 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Vast experience, on national and foreign companies, in leading the technical part of
+              projects in the web development segment. Worked on the development of two major ERP's,
+              and other big applications in different areas, such as the oil industry,
+              telecommunications, press, accounting, mass manufacturing, music as well as GIS.
+              Working using agile methodologies, mainly Scrum and Kanban.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I'm a full-stack developer that loves to code with simplicity and efficiency and using
+              always the <b>SOLID</b> principles to deliver a well-structured and maintainable code.
+              I have worked with a lot of languages and frameworks but these are the ones that I'm
+              currently more experienced and focused on are:
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
-          </div>
+            <h6 className="skills-list-section">Languages and Frameworks</h6>
+            <ul className="skills-list">
+              {langaugesAndFrameworksSkills &&
+                langaugesAndFrameworksSkills.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
 
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+            <h6 className="skills-list-section">Databases</h6>
+            <ul className="skills-list">
+              {databaseSkills && databaseSkills.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
+
+            <h6 className="skills-list-section">CI\CD</h6>
+            <ul className="skills-list">
+              {cicdSkills && cicdSkills.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
+          </div>
         </StyledText>
 
         <StyledPic>

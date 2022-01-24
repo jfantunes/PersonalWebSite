@@ -158,6 +158,11 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 60px);
   }
 
+  .skills-list-section{
+    margin:15px 0 10px;
+
+  }
+
   .numbered-heading {
     display: flex;
     align-items: center;
@@ -278,7 +283,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:last-child,
     &:last-of-type {
-      margin: 0;
+      // margin: 0;
     }
 
     & > a {
