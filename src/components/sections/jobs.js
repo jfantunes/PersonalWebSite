@@ -33,7 +33,7 @@ const StyledTabList = styled.div`
   list-style: none;
 
   @media (max-width: 600px) {
-    display: flex;
+    display: block;
     overflow-x: auto;
     width: calc(100% + 100px);
     padding-left: 50px;
@@ -41,6 +41,7 @@ const StyledTabList = styled.div`
     margin-bottom: 30px;
   }
   @media (max-width: 480px) {
+    display: block;
     width: calc(100% + 50px);
     padding-left: 25px;
     margin-left: -25px;
@@ -68,7 +69,7 @@ const StyledTabList = styled.div`
 
 const StyledTabButton = styled.button`
   ${({ theme }) => theme.mixins.link};
-  display: flex;
+  display: block;
   align-items: center;
   width: 100%;
   height: var(--tab-height);
@@ -111,19 +112,6 @@ const StyledHighlight = styled.div`
   transform: translateY(calc(${({ activeTabId }) => activeTabId} * var(--tab-height)));
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition-delay: 0.1s;
-
-  @media (max-width: 600px) {
-    top: auto;
-    bottom: 0;
-    width: 100%;
-    max-width: var(--tab-width);
-    height: 2px;
-    margin-left: 50px;
-    transform: translateX(calc(${({ activeTabId }) => activeTabId} * var(--tab-width)));
-  }
-  @media (max-width: 480px) {
-    margin-left: 25px;
-  }
 `;
 
 const StyledTabPanels = styled.div`
@@ -262,7 +250,7 @@ const Jobs = () => {
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}>
-                  <span>{company}</span>
+                  {company}
                 </StyledTabButton>
               );
             })}
