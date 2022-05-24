@@ -10,11 +10,11 @@ const IconLoader = () => (
           fontFamily="Calibre,system,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif"
           fontSize="40"
           y="57"
-          x="7.5"
-          strokeWidth="4"
+          x="16"
+          strokeWidth="2"
           stroke="currentColor"
           fill="currentColor">
-          JFA
+          JA
         </text>
       </g>
       <path

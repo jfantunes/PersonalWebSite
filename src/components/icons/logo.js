@@ -8,13 +8,13 @@ const IconLogo = () => (
         <text
           textAnchor="start"
           fontFamily="Calibre,system,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif"
-          fontSize="40"
+          fontSize="45"
           y="57"
-          x="7.5"
-          strokeWidth="4"
+          x="14"
+          strokeWidth="1"
           stroke="currentColor"
           fill="currentColor">
-          JFA
+          JA
         </text>
         <polygon
           id="Shape"
