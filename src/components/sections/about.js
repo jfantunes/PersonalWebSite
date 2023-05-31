@@ -142,6 +142,9 @@ const About = () => {
     'TypeOrm',
     'Knex',
     'Dapper',
+    'RabbitMQ',
+    'Redis',
+    'Kafka',
   ];
   const databaseSkills = ['MySQL', 'PostgreSQL', 'SQLServer', 'MongoDb'];
   const cicdSkills = ['Docker', 'Bitbucket Pipelines', 'DbUP', 'Octopus Deploy', 'AWS'];

@@ -13,4 +13,4 @@ tech:
 showInProjects: true
 ---
 
-Movie channel website.
+Movie channel ERP.

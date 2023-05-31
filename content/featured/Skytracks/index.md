@@ -2,7 +2,7 @@
 date: '6'
 title: 'SkyTracks'
 cover: './skytracks.png'
-github: ''
+github: 'https://github.com/SkyTracks-Applications'
 external: 'https://skytracks.io/'
 tech:
   - Angular
@@ -11,7 +11,7 @@ tech:
   - Knex
   - MySQL
   - Docker
-
+  - Redis
 showInProjects: true
 ---
 

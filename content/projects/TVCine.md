@@ -13,4 +13,4 @@ showInProjects: false
 company: 'Arg Software'
 ---
 
-Movie channel website.
+Movie channel ERP

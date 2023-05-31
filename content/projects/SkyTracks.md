@@ -1,7 +1,7 @@
 ---
 date: '2021-06-01'
 title: 'SkyTracks'
-github: ''
+github: 'https://github.com/SkyTracks-Applications'
 external: 'https://skytracks.io/'
 tech:
   - Angular
@@ -10,6 +10,7 @@ tech:
   - Knex
   - MySQL
   - Docker
+  - Redis
 showInProjects: false
 company: 'Arg Software'
 ---

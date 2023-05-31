@@ -11,7 +11,7 @@ url: 'https://arg.software/'
 
 - **Technologies:**
 
-  - <p class="range"> Backend: .Net, NodeJs, Express.js, koa.js, EntityFramework, Mediatr, TypeORM, Knex, Swagger, TypeDI, Autofac, Migrations;
+  - <p class="range"> Backend: .Net, NodeJs, Express.js, koa.js, EntityFramework, Mediatr, TypeORM, Knex, Swagger, TypeDI, Autofac, Migrations; RabbitMQ,Kafka, Redis;
   - <p class="range"> Frontend: : Javascript, Typescript, Angular, React, Redux, Webpack, Jest, jQuery;
   - <p class="range"> Database: PostgreSQL, MySQL, MongoDB;
   - <p class="range"> CI\CD: AWS, Docker, Octopus Deploy; BitBucket Pipelines, Github actions;

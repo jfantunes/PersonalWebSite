@@ -1,5 +1,5 @@
 ---
-date: '2016-06-01'
+date: '2018-11-25'
 title: 'HopUpon'
 github: ''
 external: 'https://blog.hopupon.com/'
